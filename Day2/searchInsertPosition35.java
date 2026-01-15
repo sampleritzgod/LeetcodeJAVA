@@ -2,8 +2,8 @@ package Leetcode.Day2;
 
 public class searchInsertPosition35 {
     public static void main(String[] args) {
-        int[] arr = {1,3,5,6};
-        int target = 7;
+        int[] arr = {2,3,5,9,14,18};
+        int target = 4;
         int ans = searchInsertPosition(arr, target);
         System.out.println(ans);
     }
